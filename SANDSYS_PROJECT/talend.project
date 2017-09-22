@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_WUIQ8Z-tEeeV2pPVbcGwfA" label="sandsys_project" description="sandsys_project" language="java" technicalLabel="SANDSYS_PROJECT" creationDate="2017-09-18T22:30:35.368+0530" author="_WUIQ8p-tEeeV2pPVbcGwfA" productVersion="Talend Data Integration-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/seenugen/BANK_PROJECT.git&quot;,&quot;login&quot;:&quot;seenugen&quot;,&quot;passwd&quot;:&quot;rbGUXgd45yd8/qr/NH7ZwQ==&quot;,&quot;settings&quot;:&quot;111&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false"/>
+  <TalendProperties:User xmi:id="_WUIQ8p-tEeeV2pPVbcGwfA" login="security@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
+</xmi:XMI>

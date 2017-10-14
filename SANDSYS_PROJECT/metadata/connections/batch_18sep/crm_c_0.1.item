@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_qEJpALB7Eee3N6SrwvY7QQ" name="crm_c" id="_lj7mILB7Eee3N6SrwvY7QQ" label="crm_c" dataPackage="_qKuLELB7Eee3N6SrwvY7QQ" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/crm_db?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="crm_db" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_qEK3ILB7Eee3N6SrwvY7QQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_qEcj8LB7Eee3N6SrwvY7QQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_qEiqkLB7Eee3N6SrwvY7QQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_qEiqkbB7Eee3N6SrwvY7QQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_qEiqkrB7Eee3N6SrwvY7QQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_qEiqk7B7Eee3N6SrwvY7QQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_qEiqlLB7Eee3N6SrwvY7QQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_qEiqlbB7Eee3N6SrwvY7QQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_qGJNELB7Eee3N6SrwvY7QQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_qGJNEbB7Eee3N6SrwvY7QQ" tag="DB ProductVersion" value="5.0.45-community-nt"/>
+    <taggedValue xmi:id="_qGJNErB7Eee3N6SrwvY7QQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_qEK3IbB7Eee3N6SrwvY7QQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_qKuLELB7Eee3N6SrwvY7QQ" name="crm_db" dataManager="_qEJpALB7Eee3N6SrwvY7QQ"/>
+</xmi:XMI>

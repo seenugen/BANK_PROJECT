@@ -24,7 +24,7 @@
     <parameters xmi:id="_qEK3IbB7Eee3N6SrwvY7QQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_qKuLELB7Eee3N6SrwvY7QQ" name="crm_db" dataManager="_qEJpALB7Eee3N6SrwvY7QQ">
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z_j5ILB9Eee3N6SrwvY7QQ" name="crm_t" id="_Z_g10LB9Eee3N6SrwvY7QQ" comment="InnoDB free: 9216 kB" label="crm_t" tableType="TABLE">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z_j5ILB9Eee3N6SrwvY7QQ" name="crm_t" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_Z_g10LB9Eee3N6SrwvY7QQ" comment="InnoDB free: 9216 kB" label="crm_t" tableType="TABLE">
       <taggedValue xmi:id="_Z_j5IbB9Eee3N6SrwvY7QQ" tag="Comment" value="InnoDB free: 9216 kB"/>
       <taggedValue xmi:id="_Z_j5IrB9Eee3N6SrwvY7QQ" tag="Comment" value="InnoDB free: 9216 kB"/>
       <feature xsi:type="relational:TdColumn" xmi:id="_Z_j5I7B9Eee3N6SrwvY7QQ" name="EMPID" label="EMPID" length="10" sourceType="INT" talendType="id_Integer">

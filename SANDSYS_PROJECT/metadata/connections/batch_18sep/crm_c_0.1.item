@@ -19,12 +19,41 @@
           <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77iPY7B9Eee3N6SrwvY7QQ" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
           <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_77iPZLB9Eee3N6SrwvY7QQ" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
         </subscribers>
+        <subscribers xmi:id="_S8o-ErB_Eee3N6SrwvY7QQ" name="TCDC_crm_t" id="_S8o-ELB_Eee3N6SrwvY7QQ" label="TCDC_crm_t">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-E7B_Eee3N6SrwvY7QQ" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-FLB_Eee3N6SrwvY7QQ" name="TALEND_CDC_STATE" label="TALEND_CDC_STATE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-FbB_Eee3N6SrwvY7QQ" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-FrB_Eee3N6SrwvY7QQ" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-F7B_Eee3N6SrwvY7QQ" name="EMPID" label="EMPID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+            <initialValue xmi:id="_S8o-GLB_Eee3N6SrwvY7QQ" body="0"/>
+          </feature>
+        </subscribers>
+        <subscribers xmi:id="_S8o-GbB_Eee3N6SrwvY7QQ" name="TCDC_VIEW_crm_t" id="_S8o-EbB_Eee3N6SrwvY7QQ" label="TCDC_VIEW_crm_t">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-GrB_Eee3N6SrwvY7QQ" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-G7B_Eee3N6SrwvY7QQ" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-HLB_Eee3N6SrwvY7QQ" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-HbB_Eee3N6SrwvY7QQ" name="EMPID" label="EMPID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+            <initialValue xmi:id="_S8o-HrB_Eee3N6SrwvY7QQ" body="0"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-H7B_Eee3N6SrwvY7QQ" name="ENAME" label="ENAME" length="8" sourceType="VARCHAR" talendType="id_String">
+            <initialValue xmi:id="_S8o-ILB_Eee3N6SrwvY7QQ"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-IbB_Eee3N6SrwvY7QQ" name="ESAL" label="ESAL" length="10" sourceType="INT" talendType="id_Integer">
+            <initialValue xmi:id="_S8o-IrB_Eee3N6SrwvY7QQ"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-I7B_Eee3N6SrwvY7QQ" name="LOC" label="LOC" length="10" sourceType="VARCHAR" talendType="id_String">
+            <initialValue xmi:id="_S8o-JLB_Eee3N6SrwvY7QQ"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_S8o-JbB_Eee3N6SrwvY7QQ" name="DNO" label="DNO" length="10" sourceType="INT" talendType="id_Integer">
+            <initialValue xmi:id="_S8o-JrB_Eee3N6SrwvY7QQ"/>
+          </feature>
+        </subscribers>
       </cdcTypes>
     </cdcConns>
     <parameters xmi:id="_qEK3IbB7Eee3N6SrwvY7QQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_qKuLELB7Eee3N6SrwvY7QQ" name="crm_db" dataManager="_qEJpALB7Eee3N6SrwvY7QQ">
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z_j5ILB9Eee3N6SrwvY7QQ" name="crm_t" id="_Z_g10LB9Eee3N6SrwvY7QQ" comment="InnoDB free: 9216 kB" label="crm_t" tableType="TABLE">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_Z_j5ILB9Eee3N6SrwvY7QQ" name="crm_t" id="_Z_g10LB9Eee3N6SrwvY7QQ" comment="InnoDB free: 9216 kB" label="crm_t" tableType="TABLE" attachedCDC="true" activatedCDC="true">
       <taggedValue xmi:id="_Z_j5IbB9Eee3N6SrwvY7QQ" tag="Comment" value="InnoDB free: 9216 kB"/>
       <feature xsi:type="relational:TdColumn" xmi:id="_Z_j5I7B9Eee3N6SrwvY7QQ" name="EMPID" label="EMPID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
         <taggedValue xmi:id="_Z_j5JLB9Eee3N6SrwvY7QQ" tag="Comment" value=""/>
